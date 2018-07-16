@@ -116,6 +116,8 @@ function Arrow (x, y, angle) {
                         volume = 0;
                         break;
                 }
+
+                player.setVolume(volume);
             }
         }
         
